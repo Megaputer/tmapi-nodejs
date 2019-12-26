@@ -1,0 +1,27 @@
+{
+    "name": "tmapi",
+    "version": "1.0.0",
+    "description": "NodeJS client for tmapi",
+    "repository": "GIT_USER_ID/GIT_REPO_ID",
+    "main": "api.js",
+    "types": "api.d.ts",
+    "scripts": {
+        "clean": " find . -type f \\( -name '*.js' -o -name '*.d.ts' -o -name '*.js.map' -o -name 'yarn.lock' \\) -delete",
+        "build": "tsc",
+        "test": "mocha"
+    },
+    "author": "OpenAPI-Generator Contributors",
+    "license": "Unlicense",
+    "dependencies": {
+        "bluebird": "^3.5.0",
+        "request": "^2.81.0",
+		"@types/mocha": "^5.2.7",
+        "@types/bluebird": "*",
+        "@types/request": "*",
+        "rewire": "^3.0.2"
+    },
+    "devDependencies": {
+        "typescript": "^2.4.2",
+        "@types/node": "8.10.34"
+    }
+}
